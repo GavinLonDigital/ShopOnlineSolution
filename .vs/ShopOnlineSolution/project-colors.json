@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f51ff8aa-2011-46c2-9984-9beb41ca7a86": {
+      "ProjectGuid": "f51ff8aa-2011-46c2-9984-9beb41ca7a86",
+      "DisplayName": "ShopOnline.Web",
+      "ColorIndex": 0
+    },
+    "39fe7538-ff3a-4a80-863e-79f882db7350": {
+      "ProjectGuid": "39fe7538-ff3a-4a80-863e-79f882db7350",
+      "DisplayName": "ShopOnline.Api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

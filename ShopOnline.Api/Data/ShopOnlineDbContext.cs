@@ -136,13 +136,13 @@ namespace ShopOnline.Api.Data
 				Qty = 60,
 				CategoryId = 3
 			});
-			//Furnature Category
+			//Furniture Category
 			modelBuilder.Entity<Product>().HasData(new Product
 			{
 				Id = 12,
 				Name = "Black Leather Office Chair",
 				Description = "Very comfortable black leather office chair",
-				ImageURL = "/Images/Furnature/Furnature1.png",
+				ImageURL = "/Images/Furniture/Furniture1.png",
 				Price = 50,
 				Qty = 212,
 				CategoryId = 2
@@ -153,7 +153,7 @@ namespace ShopOnline.Api.Data
 				Id = 13,
 				Name = "Pink Leather Office Chair",
 				Description = "Very comfortable pink leather office chair",
-				ImageURL = "/Images/Furnature/Furnature2.png",
+				ImageURL = "/Images/Furniture/Furniture2.png",
 				Price = 50,
 				Qty = 112,
 				CategoryId = 2
@@ -163,7 +163,7 @@ namespace ShopOnline.Api.Data
 				Id = 14,
 				Name = "Lounge Chair",
 				Description = "Very comfortable lounge chair",
-				ImageURL = "/Images/Furnature/Furnature3.png",
+				ImageURL = "/Images/Furniture/Furniture3.png",
 				Price = 70,
 				Qty = 90,
 				CategoryId = 2
@@ -173,7 +173,7 @@ namespace ShopOnline.Api.Data
 				Id = 15,
 				Name = "Silver Lounge Chair",
 				Description = "Very comfortable Silver lounge chair",
-				ImageURL = "/Images/Furnature/Furnature4.png",
+				ImageURL = "/Images/Furniture/Furniture4.png",
 				Price = 120,
 				Qty = 95,
 				CategoryId = 2
@@ -183,7 +183,7 @@ namespace ShopOnline.Api.Data
 				Id = 16,
 				Name = "Porcelain Table Lamp",
 				Description = "White and blue Porcelain Table Lamp",
-				ImageURL = "/Images/Furnature/Furnature6.png",
+				ImageURL = "/Images/Furniture/Furniture6.png",
 				Price = 15,
 				Qty = 100,
 				CategoryId = 2
@@ -193,7 +193,7 @@ namespace ShopOnline.Api.Data
 				Id = 17,
 				Name = "Office Table Lamp",
 				Description = "Office Table Lamp",
-				ImageURL = "/Images/Furnature/Furnature7.png",
+				ImageURL = "/Images/Furniture/Furniture7.png",
 				Price = 20,
 				Qty = 73,
 				CategoryId = 2
@@ -296,7 +296,7 @@ namespace ShopOnline.Api.Data
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{
 				Id = 2,
-				Name = "Furnature"
+				Name = "Furniture"
 			});
 			modelBuilder.Entity<ProductCategory>().HasData(new ProductCategory
 			{

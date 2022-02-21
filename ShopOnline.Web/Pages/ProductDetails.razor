@@ -25,7 +25,13 @@ else
                 </b>
             </p>
             <div>
-                <button class="btn btn-success"><b>Add to Cart</b></button>
+                <button class="btn btn-success"
+                @onclick ="() => (AddToCart_Click(new CartItemToAddDto{
+                    CartId = HardCoded.CartId,
+                    ProductId = Product.Id,
+                    Qty = 1
+                }))"
+                ><b>Add to Cart</b></button>
             </div>
         </div>
 

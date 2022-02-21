@@ -11,6 +11,9 @@ namespace ShopOnline.Web.Pages
 
         public IEnumerable<ProductDto> Products { get; set; }
 
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
+
         public string ErrorMessage { get; set; }
 
         protected override async Task OnInitializedAsync()

@@ -1,0 +1,23 @@
+﻿@inherits ProductCategoriesNavMenuBase
+
+@if(ProductCategoryDtos == null && ErrorMessage == null)
+{
+    <DisplaySpinner/>
+}
+else if(ErrorMessage != null)
+{
+    <DisplayError ErrorMessage = "@ErrorMessage"/>
+}
+else
+{
+    @foreach(var productCategory in ProductCategoryDtos)
+    {
+        var link = "/ProductsByCategory/" + productCategory.Id;
+        
+        <div class = "nav-item px-3">
+            <NavLink class="nav-link" href="@link">
+                <span class="@productCategory.IconCSS"></span>&nbsp;@productCategory.Name
+            </NavLink>
+        </div>
+    }
+}

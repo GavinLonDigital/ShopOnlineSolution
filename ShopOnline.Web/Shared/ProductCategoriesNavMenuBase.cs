@@ -2,7 +2,7 @@
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
-namespace ShopOnline.Web.Pages
+namespace ShopOnline.Web.Shared
 {
     public class ProductCategoriesNavMenuBase:ComponentBase
     {
